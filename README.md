@@ -8,11 +8,11 @@ Can freely available Sentinel-2 imagery and machine learning classify agricultur
 
 ## Why Benue?
 
-Benue State is widely known as Nigeria's "Food Basket" — one of the country's largest producers of yam, rice, soybean, and cassava. Understanding how much land is actually under cultivation, and how it's distributed relative to urban growth, has real relevance for food-security monitoring. This project treats that as a genuine applied problem, not an arbitrary choice of study area.
+Benue State is widely known as Nigeria's "Food Basket"  one of the country's largest producers of yam, rice, soybean, and cassava. Understanding how much land is actually under cultivation, and how it's distributed relative to urban growth, has real relevance for food-security monitoring. This project treats that as a genuine applied problem, not an arbitrary choice of study area.
 
 ## Problem Statement
 
-Nigeria lacks fine-grained, locally-verified agricultural land-cover data. Global products like ESA WorldCover exist, but — as this project demonstrates directly — they can systematically underrepresent smallholder cropland in favor of broader "vegetation" categories. This project builds a locally-trained classifier and, in the process, surfaces and corrects some of that underrepresentation using the region's own satellite data.
+Nigeria lacks fine-grained, locally verified agricultural land-cover data. Global products like ESA WorldCover exist, but as this project demonstrates directly  they can systematically underrepresent smallholder cropland in favor of broader "vegetation" categories. This project builds a locally-trained classifier and, in the process, surfaces and corrects some of that underrepresentation using the region's own satellite data.
 
 ## Study Area
 
@@ -21,11 +21,11 @@ A 30 km × 30 km window centered on the boundary between **Makurdi** and **Guma*
 - Makurdi's urban core (built-up land)
 - Surrounding farmland and savanna vegetation (the agricultural-urban gradient the project is built around)
 
-The full Makurdi + Guma administrative boundaries were considered first, but produced Sentinel-2 exports over 5 GB — impractical for a laptop-based workflow — so the area was deliberately narrowed to this focused window. This is disclosed as a scoping decision, not a hidden shortcut.
+The full Makurdi + Guma administrative boundaries were considered first, but produced Sentinel-2 exports over 5 GB impractical for a laptop-based workflow so the area was deliberately narrowed to this focused window. This is disclosed as a scoping decision, not a hidden shortcut.
 
 ## Data Sources
 
-- **Sentinel-2 Level-2A (Surface Reflectance), Harmonized**, via Google Earth Engine — 5 seasonal cloud-masked composites across one agricultural year (2024–2025):
+- **Sentinel-2 Level-2A (Surface Reflectance), Harmonized**, via Google Earth Engine 5 seasonal cloud-masked composites across one agricultural year (2024–2025):
   - Mar–Apr (land preparation)
   - May–Jun (early growth)
   - Jun–Sep (peak growth — widened from the original Jul–Aug window after an initial run found only 1 usable cloud-free scene there)
