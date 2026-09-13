@@ -1,0 +1,20 @@
+# Raw and large intermediate data (regenerate via scripts, don't commit)
+data/raw/*.tif
+data/raw/*.tiff
+data/processed/*.tif
+data/processed/*.tiff
+data/processed/*.joblib
+
+# Keep folder structure but ignore contents
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.venv/
+venv/
+
+# OS
+.DS_Store
